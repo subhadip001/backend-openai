@@ -6,10 +6,9 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "script": "node index",
+    "start": "node index",
     "server": "nodemon index",
-    "client": "cd .. && cd openai && npm run dev",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "npm run server"
   },
   "keywords": [],
   "author": "",
